@@ -4,10 +4,12 @@ def numero_primo(n):
     elif n == 2:
         return  True
     elif n > 2:
-        for divisor in range(2, n):
-            if n % divisor == 0:
-                return False
-            elif n % divisor != 0 and divisor == n-1:
-                return True
+        for divisor in range(2, int(n ** 0.5) + 1):
+                if n % divisor == 0:
+                     return False
+        return True
             
 print(numero_primo(7))
+
+
+

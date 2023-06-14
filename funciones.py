@@ -15,10 +15,10 @@ def num_pri(m):
      elif m == 2:
           return True
      elif m > 2:
-          for d in range(2, n):
+          for d in range(2, m):
                if m % d == 0:
                     return False
-               elif m % d != 0 and divisor == m-1:
+               elif m % d != 0 and d == m-1:
                     return True
 print(num_pri(7))
 
@@ -40,7 +40,9 @@ print(todos_los_primos(20))
 
 print("holi")
 
-                  
+print("gatos") 
+
+print("perros")
 
 
 

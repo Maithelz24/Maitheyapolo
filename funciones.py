@@ -40,9 +40,5 @@ print(todos_los_primos(20))
 
 print("holi")
 
-print("gatos") 
 
-print("perros")
-
-print("gatitos")
 
